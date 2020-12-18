@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="3dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+
+        >
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/images__36_"
+        tools:ignore="ContentDescription"
+        android:id="@+id/imageview"
+        android:background="@drawable/back_edit2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/movie_txt"
+        android:text="Hanaa Nassef"
+        android:textSize="18sp"
+        android:textColor="#222"
+        android:background="@drawable/back_edit2"
+        />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
